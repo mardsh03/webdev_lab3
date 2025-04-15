@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'San Francisco', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #006aff;
+  }
+  
+  .homepage {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-pic {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .intro-text {
+    flex: 1;
+  }
+  
+  .quick-links {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .card-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .card {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .card:hover {
+    background-color: #006aff;
+    transform: scale(1.05);
+  }
+  
+  table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  th {
+    background-color: #ecf0f1;
+  }
+  
+  td img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .hobby-list {
+    max-width: 600px;
+    margin: 30px auto;
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 0;
+  }
+  
+  .hobby-list li {
+    background-color: #fff;
+    padding: 12px 20px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .gallery-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .music-gallery .gallery-item img {
+    border: 2px solid #ccc;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .music-gallery .gallery-item img:hover {
+    transform: scale(1.05);
+    border-color: #1DB954;
+  }
+  
